@@ -43,9 +43,10 @@ class PlayerArrow {
       
       }
   
-for (var i = 0; i < this.trajectory.length; i++){
-  image(this.image, this.trajectory[i][0], this.trajectory[i][1], 5, 5);
-}
+for (var i = 0; i < this.trajectory.length; i++) {
+          fill("white");
+          ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
+        }
       /****write a correct code to add for loop and to display small dots
            at all the positions stored in trajectory array
            *******/
